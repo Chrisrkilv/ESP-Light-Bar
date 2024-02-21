@@ -11,14 +11,7 @@ A simple light bar derived from my lamp design - https://www.thingiverse.com/thi
 * JST Connectors & Crimping Tool -
   (You can also use JSTS Connectors, I have included a file for this)
 
-## Print Settings
-Light Bar & End Cap - 0.20 Layer Height. 
-
-Print Upright with no supports and at least 75% infill If using a lighter colour filament to ensure minimum light leakage.
-If you have a multi-filament printer you could even print the infill in a darker colour to contain the light.
-Diffuser - 100% Infill - 0.20 Layer, Print Flat
-
-Skadis Mount - 25% Infill, 0.20 Layer, Supports On
+## Parts
 
 ### Light Bar
 The light bar will accommodate an LED strip up to 250mm, I used an LED strip with 60 LED's Per Meter which ends up being 14 LED's in the light bar total.
@@ -30,3 +23,14 @@ Due to the nature of the mount design you could remix this to create a mount for
 I didn't want to have to run a separate ESP chip for every single light bar so I designed a central hub with connectors. This houses an ESP32-C3 Supermini and multiple 4 pin 3JST connections that are numbered. Number 1 is the main segment, the data pin of number one carries over to number 2 and so on and so fourth. Technically this could go on forever if you have a big neough power supply.
 
 That way I can connect up to three light bars at once but still have individual control of them using segments and also power all three of them from one >2.5A 5v Power supply over USB.
+
+## Print Settings
+Light Bar & End Cap - 0.20 Layer Height. 
+
+Print Upright with no supports and at least 75% infill If using a lighter colour filament to ensure minimum light leakage.
+If you have a multi-filament printer you could even print the infill in a darker colour to contain the light.
+Diffuser - 100% Infill - 0.20 Layer, Print Flat
+
+Skadis Mount - 25% Infill, 0.20 Layer, Supports On
+
+
