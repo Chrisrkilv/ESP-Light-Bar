@@ -26,7 +26,7 @@ The light bar will accommodate an LED strip up to 250mm, I used an LED strip wit
 ### Mount
 I have designed the mount to simply friction slot into the back of the light bar whilst also wedging the wire in place so there's no need for any glue or screws. The End Cap is also friction mounted.
 Due to the nature of the mount design you could remix this to create a mount for almost anything and just slot it in, file fusion 360 files are included.
-#### Hub
+### Hub
 I didn't want to have to run a separate ESP chip for every single light bar so I designed a central hub with connectors. This houses an ESP32-C3 Supermini and multiple 4 pin 3JST connections that are numbered. Number 1 is the main segment, the data pin of number one carries over to number 2 and so on and so fourth. Technically this could go on forever if you have a big neough power supply.
 
 That way I can connect up to three light bars at once but still have individual control of them using segments and also power all three of them from one >2.5A 5v Power supply over USB.
