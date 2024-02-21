@@ -5,11 +5,11 @@ Light Bar that connects to a hub housing an ESP32-C3 for control via ESPHOME or 
 A simple light bar derived from my lamp design - https://www.thingiverse.com/thing:6421767
 
 ## Parts Needed
-WS2811/WS2812/WS2812B or WS2813 (250mmr 5V) LED Strip - https://amzn.to/3Havtuk
-Cable with at least 3 conductors with the outer diameter being no more than 3.5mm (an old USB cable is perfect. I didn't have one long enough so purchased this -
-ESP32 Module (I used ESP32-C3-Supermini) - https://amzn.to/3vsUU7Z
-JST Connectors & Crimping Tool -
-(You can also use JSTS Connectors, I have included a file for this)
+* WS2811/WS2812/WS2812B or WS2813 (250mmr 5V) LED Strip - https://amzn.to/3Havtuk
+* Cable with at least 3 conductors with the outer diameter being no more than 3.5mm (an old USB cable is perfect. I didn't have one long enough so purchased this -
+* ESP32 Module (I used ESP32-C3-Supermini) - https://amzn.to/3vsUU7Z
+* JST Connectors & Crimping Tool -
+  (You can also use JSTS Connectors, I have included a file for this)
 
 ## Print Settings
 Light Bar & End Cap - 0.20 Layer Height. 
