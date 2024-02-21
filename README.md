@@ -20,17 +20,13 @@ Diffuser - 100% Infill - 0.20 Layer, Print Flat
 
 Skadis Mount - 25% Infill, 0.20 Layer, Supports On
 
-Light Bar
+###Light Bar
 The light bar will accommodate an LED strip up to 250mm, I used an LED strip with 60 LED's Per Meter which ends up being 14 LED's in the light bar total.
 
-Mount
+###Mount
 I have designed the mount to simply friction slot into the back of the light bar whilst also wedging the wire in place so there's no need for any glue or screws. The End Cap is also friction mounted.
-
 Due to the nature of the mount design you could remix this to create a mount for almost anything and just slot it in, file fusion 360 files are included.
+####Hub
+I didn't want to have to run a separate ESP chip for every single light bar so I designed a central hub with connectors. This houses an ESP32-C3 Supermini and multiple 4 pin 3JST connections that are numbered. Number 1 is the main segment, the data pin of number one carries over to number 2 and so on and so fourth. Technically this could go on forever if you have a big neough power supply.
 
-Hub
-I didn't want to have to run a separate ESP chip for every single light bar so I designed a central hub with connectors. This houses an ESP32-C3 Supermini, a terminal block and multiple JSTS connections that are numbered as per the GPOIO pin it's connected too.
-
-That way I can connect up to three light bars at once but still have individual control of them and also power all three of them from one >2.5A 5v Power supply over USB.
-
-The hub also includes a USB-C connector wired in such a way that allows USB-C PD power supplies to be used.
+That way I can connect up to three light bars at once but still have individual control of them using segments and also power all three of them from one >2.5A 5v Power supply over USB.
