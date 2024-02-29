@@ -1,8 +1,9 @@
 # ESP-Light-Bar
+[Thingiverse Link](https://www.thingiverse.com/thing:6488219)
 
 ## See thingiverse for print settings/assembly
 [A simple light bar derived from my lamp design](https://www.thingiverse.com/thing:6421767)
-[Lightbar thingiverse](https://www.thingiverse.com/thing:6488219)
+
 
 ### LED's
 The light bar will accommodate an LED strip up to 240mm, I used an LED strip with 60 LED's Per Meter which ends up being 14 LED's in the light bar total.
