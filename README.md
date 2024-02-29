@@ -8,7 +8,7 @@
 ### LED's & Wiring
 The light bar will accommodate an LED strip up to 240mm, I used an LED strip with 60 LED's Per Meter which ends up being 14 LED's in the light bar total.
 
-The wiring is done using an old USB or alarm cable with at least 4 conductors (you could use ethernet but it would be overkill). Basically we wire the LED's up at the input end the same way you would for any project, passing 5V to 5V, GND to GND and Data to GPIO3 on the ESP device. What we then do is pass of the 4th conductor to the output end of the LED strip creating a data loop. 
+The wiring is done using an old USB or alarm cable with at least 4 conductors (you could use ethernet but it would be overkill). Basically we wire the LED's up at the input end of the LED strip the same way you would for any project, passing 5V to 5V, GND to GND and Data to GPIO3 on the ESP device. What we then do is wire the 4th conductor to the other output end of the LED strip creating a data loop. Giving us a data input and a data output. The Data output can then be passed to the input of the next device in the chain.
 
 `Data goes from GPIO3 >> through conductor number 3 >> passes through the LED strip >> into conductor number 4, which runs back down the cable > conductor number 4 in the hub connecs to conductor number 3 in the next connector over >> Rinse Repeat as many times as you like.
 `
