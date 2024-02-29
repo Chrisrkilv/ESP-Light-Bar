@@ -4,7 +4,7 @@
 A simple light bar derived from my lamp design - https://www.thingiverse.com/thing:6421767
 
 ### LED's
-The light bar will accommodate an LED strip up to 250mm, I used an LED strip with 60 LED's Per Meter which ends up being 14 LED's in the light bar total.
+The light bar will accommodate an LED strip up to 240mm, I used an LED strip with 60 LED's Per Meter which ends up being 14 LED's in the light bar total.
 
 ### ESPHOME
 The provided ESPHome code is straightforward. It utilizes the NeopixelBus light component. Simply specify the number of LEDs you’re using. By default, the main light component is hidden using the “internal” option. We’ll then segment this main component into multiple other lights based on your preferences.
