@@ -5,9 +5,13 @@
 [A simple light bar derived from my lamp design](https://www.thingiverse.com/thing:6421767)
 
 
-### LED's
+### LED's & Wiring
 The light bar will accommodate an LED strip up to 240mm, I used an LED strip with 60 LED's Per Meter which ends up being 14 LED's in the light bar total.
 
+The wiring is done using an old USB or alarm cable with at least 4 conductors (you could use ethernet but it would be overkill). Basically we wire the LED's up at the input end the same way you would for any project, passing 5V to 5V, GND to GND and Data to GPIO3 on the ESP device. What we then do is pass of the 4th conductor to the output end of the LED strip creating a data loop. 
+
+`Data goes from GPIO3 >> through conductor number 3 >> passes through the LED strip >> into conductor number 4, which runs back down the cable > conductor number 4 in the hub connecs to conductor number 3 in the next connector over >> Rinse Repeat as many times as you like.
+`
 ### ESPHOME
 The provided ESPHome code is straightforward. It utilizes the NeopixelBus light component. Simply specify the number of LEDs you’re using. By default, the main light component is hidden using the “internal” option. We’ll then segment this main component into multiple other lights based on your preferences.
 
