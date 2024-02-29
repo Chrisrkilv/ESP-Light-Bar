@@ -1,8 +1,5 @@
 # ESP-Light-Bar
 
-## Summary
-A Light Bar that connects to a hub housing an ESP32-C3 for control via ESPHOME or WLED
-
 ## See thingiverse for print settings/assembly
 A simple light bar derived from my lamp design - https://www.thingiverse.com/thing:6421767
 
